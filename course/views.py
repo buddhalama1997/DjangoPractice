@@ -12,3 +12,4 @@ from django.shortcuts import render
 
 def coursePage(request):
     return render(request,'course/course.html')
+     
