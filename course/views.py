@@ -1,11 +1,14 @@
-from django.shortcuts import render
+
 
 #Importing Http Response
 from django.http import HttpResponse
+from django.shortcuts import render
 
-def learn_django(request):
-    return HttpResponse("Hello Django")
+# def learndjango(request):
+#     return HttpResponse("Hello Django")
 
-def learn_python(request):
-    return HttpResponse('<h1>Hello Python</h1>')
-    
+# def learnpython(request):
+#     return HttpResponse('<h1>Hello Python</h1>')
+
+def coursePage(request):
+    return render(request,'course/course.html')
