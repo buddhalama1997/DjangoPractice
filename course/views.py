@@ -10,6 +10,5 @@ from django.shortcuts import render
 # def learnpython(request):
 #     return HttpResponse('<h1>Hello Python</h1>')
 
-def coursePage(request):
+def course(request):
     return render(request,'course/course.html')
-     
